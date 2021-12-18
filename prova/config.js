@@ -8,8 +8,8 @@ var config = {
     markerColor: '#7b0e0e',
     theme: 'dark',
     use3dTerrain: true,
-    title: 'Prova Scrollytelling',
-    subtitle: 'A descriptive and interesting subtitle to draw in the reader',
+    title: 'Test',
+    subtitle: 'This is a test for IlTermopolio movie maps ',
     byline: 'By Federica Gaspari',
     footer: 'Source: source citations, etc.',
     chapters: [
@@ -17,8 +17,8 @@ var config = {
             id: 'slug-style-id',
             alignment: 'left',
             hidden: false,
-            title: 'Display Title',
-            image: './path/to/image/source.png',
+            title: 'First step',
+            image: './assets/Arona.jpg',
             description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [8.55965, 45.76021],
