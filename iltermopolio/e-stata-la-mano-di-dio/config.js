@@ -10,24 +10,24 @@ var config = {
     use3dTerrain: true,
     title: 'Movie Locations - È stata la mano di Dio',
     subtitle: "Una mappa interattiva delle locations dell'ultimo film di Paolo Sorrentino.",
-    byline: 'Mappa a cura di Federica Gaspari per la redazione cinema de IlTermopolio',
-    footer: 'Source: source citations, etc.',
+    byline: 'Mappa a cura di <a href="https://tars4815.github.io/" target="_blank">Federica Gaspari</a> per la redazione cinema de <a href="https://www.iltermopolio.com/ target="_blank">IlTermopolio</a>',
+    footer: 'Source: source citations, etc. <a href="https://www.google.it">Prova</a>',
     chapters: [
         {
-            id: 'slug-style-id',
+            id: 'Napoli',
             alignment: 'left',
             hidden: false,
-            title: 'First step',
+            title: 'Napoli secondo Paolo Sorrentino',
             image: 'https://www.cinematographe.it/wp-content/uploads/2021/12/e-stata-la-mano-di-dio-Fremantle.jpg',
             description: '<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cinematographe.it%2Frubriche-cinema%2Ffocus%2Fe-stata-la-mano-di-dio-film-spiegazione-finale%2F&psig=AOvVaw2BHiBMBpp_4cpK2Uvb8C_J&ust=1642763548433000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCIDi_Z-ZwPUCFQAAAAAdAAAAABAK">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
-                center: [8.55965, 45.76021],
-                zoom: 14.43,
+                center: [14.256050858085274, 40.84527557362108],
+                zoom: 10,
                 pitch: 57.00,
-                bearing: -98.37
+                bearing: -50.37
             },
             mapAnimation: 'flyTo',
-            rotateAnimation: false,
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [
                 // {
@@ -134,6 +134,25 @@ var config = {
             },
             mapAnimation: 'flyTo',
             rotateAnimation: false,
+            callback: '',
+            onChapterEnter: [],
+            onChapterExit: []
+        },
+        {
+            id: 'seventh-element',
+            alignment: 'left',
+            hidden: false,
+            title: 'Stromboli',
+            image: 'https://www.napolike.it/wp-content/uploads/2021/12/e%CC%80-stata-la-mano-di-dio-stromboli.jpg',
+            description: "Anche alcuni luoghi ed il mare di Stromboli, nonché l'omonimo vulcano, appaiono nel film durante una triste vacanza fatta da Fabio ed il fratello dopo la morte dei genitori. In questa location Fabio capisce di essere 'diventato grande' e si separa dal fratello cercando una propria via, ormai solo nel mondo. ",
+            location: {
+                center: [15.21409017162607, 38.793780881782084],
+                zoom: 16.43,
+                pitch: 44.00,
+                bearing: -14.40
+            },
+            mapAnimation: 'flyTo',
+            rotateAnimation: true,
             callback: '',
             onChapterEnter: [],
             onChapterExit: []

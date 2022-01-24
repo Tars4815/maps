@@ -29,10 +29,16 @@
             position: relative;
             z-index: 5;
         }
-        #header h1, #header h2, #header p {
+        #header h1, #header h2{
             margin: 0;
             padding: 2vh 2vw;
             text-align: center;
+        }
+        #header p {
+            margin: 0;
+            padding: 2vh 2vw;
+            text-align: center;
+            font-size:small;
         }
         #footer {
             width: 100%;
@@ -171,7 +177,7 @@ if (config.subtitle) {
 
 if (config.byline) {
     var bylineText = document.createElement('p');
-    bylineText.innerText = config.byline;
+    bylineText.innerHTML = config.byline;
     header.appendChild(bylineText);
 }
 
