@@ -8,17 +8,17 @@ var config = {
     markerColor: '#7b0e0e',
     theme: 'dark',
     use3dTerrain: true,
-    title: 'Movie Locations - È stata la mano di Dio',
-    subtitle: "Una mappa interattiva delle locations dell'ultimo film di Paolo Sorrentino.",
-    byline: 'Mappa a cura di <a href="https://tars4815.github.io/" target="_blank">Federica Gaspari</a> per la redazione cinema de <a href="https://www.iltermopolio.com/ target="_blank">IlTermopolio</a>',
-    footer: 'Source: source citations, etc. <a href="https://www.google.it">Prova</a>',
+    title: '<a href="https://www.iltermopolio.com/" target="_blank"><img src="https://iltermopoliocinematv.files.wordpress.com/2021/09/cropped-cropped-logo-termopolio-cinema.png?w=1024&h=1024" width="80" height="80"></a></br></br> Movie Locations - È stata la mano di Dio',
+    subtitle: "Mappa interattiva delle locations dell'ultimo film di Paolo Sorrentino.",
+    byline: '<img src="https://www.gliacchiappafilm.it/wp-content/uploads/2021/11/e-stata-la-mano-di-dio.jpg" width="400"></br> <blockquote>Testo testo testo testo </blockquote>',
+    footer: 'Mappa a cura di <a href="https://tars4815.github.io/" target="_blank">Federica Gaspari</a> per la redazione cinema de <a href="https://www.iltermopolio.com/" target="_blank">IlTermopolio</a>',
     chapters: [
         {
             id: 'Napoli',
             alignment: 'left',
             hidden: false,
             title: 'Napoli secondo Paolo Sorrentino',
-            image: 'https://www.cinematographe.it/wp-content/uploads/2021/12/e-stata-la-mano-di-dio-Fremantle.jpg',
+            image: 'https://artesettima.it/wp-content/uploads/2021/12/e-stata-la-mano-di-dio-film-1280x720-1.jpg',
             description: '<a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cinematographe.it%2Frubriche-cinema%2Ffocus%2Fe-stata-la-mano-di-dio-film-spiegazione-finale%2F&psig=AOvVaw2BHiBMBpp_4cpK2Uvb8C_J&ust=1642763548433000&source=images&cd=vfe&ved=0CAkQjhxqFwoTCIDi_Z-ZwPUCFQAAAAAdAAAAABAK">Lorem</a> ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
             location: {
                 center: [14.256050858085274, 40.84527557362108],
