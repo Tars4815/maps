@@ -36,11 +36,17 @@
             z-index: 5;
         }
 
-        #header h1,
+        #header h1 {
+            margin: 0;
+            padding: 2vh 2vw;
+            text-align: center;
+        }
+
         #header h2 {
             margin: 0;
             padding: 2vh 2vw;
             text-align: center;
+            font-size: medium;
         }
 
         #header p {
@@ -134,8 +140,15 @@
         }
 
         #header blockquote {
-            background-color: rgba(228, 217, 214, 0.329);
-            color: #d8d0d0;
+            background-color: rgba(228, 217, 214, 0.651);
+            color: #7b0e0e;
+            margin: 1.5em 10px;
+            padding: 1.5em 10px;
+        }
+
+        #header hr {
+            border: 2px solid #d8d0d073;
+            border-radius: 5px;
         }
 
         /* Fix issue on mobile browser where scroll breaks  */
@@ -201,7 +214,7 @@
 
         if (config.subtitle) {
             var subtitleText = document.createElement('h2');
-            subtitleText.innerText = config.subtitle;
+            subtitleText.innerHTML = config.subtitle;
             header.appendChild(subtitleText);
         }
 
@@ -209,6 +222,12 @@
             var bylineText = document.createElement('p');
             bylineText.innerHTML = config.byline;
             header.appendChild(bylineText);
+        }
+
+        if (config.also) {
+            var alsoText = document.createElement('p');
+            alsoText.innerHTML = config.also;
+            header.appendChild(alsoText);
         }
 
         if (header.innerText.length > 0) {
