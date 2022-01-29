@@ -12,7 +12,7 @@ var config = {
     subtitle: "<hr><i>Mappa interattiva delle locations dell'ultimo film di Paolo Sorrentino</i>",
     byline: "</br><img src='https://www.gliacchiappafilm.it/wp-content/uploads/2021/11/e-stata-la-mano-di-dio.jpg' width='400'></br> <blockquote>Mentre i cinefili di tutto il mondo si interrogano su quali saranno i titoli a riservarsi un posto nella cinquina finalista dei migliori film internazionali agli Oscar, <b>È stata la mano di Dio</b> di Paolo Sorrentino conquista il cuore del grande pubblico con la sua narrazione intima e autobiografica. Dopo il Leone d'argento ottenuto alla 78esima edizione della Mostra del cinema di Venezia, il film del regista partenopeo ha infatti raccolto un ottimo consenso sia in sala - diventando il film italiano più visto al cinema nel 2021 - che su Netflix, piattaforma che ha contribuito alla distribuzione dello stesso anche a livello internazionale.</br></br>In questo nuovo appuntamento di <i>Movie Locations</i> a cura de IlTermopolio, esploriamo i luoghi che sono stati palcoscenico di questa storia del grande schermo, tuffandoci nella Napoli animata dalla regia di Sorrentino.</blockquote>",
     also: '<p style="color:white">Leggi anche la <a href="https://www.iltermopolio.com/cinema/e-stata-la-mano-di-dio-la-recensione" target=_"blank">recensione</a> di <i><b>È stata la mano di Dio</b></i></p>',
-    footer: 'Mappa a cura di <a href="https://tars4815.github.io/" target="_blank">Federica Gaspari</a> per la redazione cinema de <a href="https://www.iltermopolio.com/" target="_blank">IlTermopolio</a>',
+    footer: 'Mappa a cura di <a href="https://tars4815.github.io/" target="_blank">Federica Gaspari</a> per la redazione cinema de <a href="https://www.iltermopolio.com/" target="_blank">IlTermopolio</a>.</br>Fonti: <a href="https://www.napolike.it/e-stata-la-mano-di-dio-di-sorrentino-le-curiosita-i-luoghi-e-cosa-non-perdere-del-film#Il_Vomero_e_la_vera_casa_di_Sorrentino" target="_blank">Napolike</a> - <a href="https://www.napolitoday.it/cultura/e-stata-la-mano-di-dio-location-film.html" target="_blank">NapoliToday</a> - <a href="https://it.wikipedia.org/wiki/Pagina_principale" target="_blank">Wikipedia</a>',
     chapters: [
         {
             id: 'Napoli',
@@ -50,7 +50,7 @@ var config = {
             hidden: false,
             title: 'Galleria Umberto I',
             image: 'https://www.npcmagazine.it/wp-content/uploads/2021/11/4-1-1024x576.jpg',
-            description: 'Il primo vero incontro tra il giovane protagonista Fabio (alter ego di Sorrentino) e la settima arte ha luogo in uno dei luoghi pià iconici del capoluogo campano. La maestosa galleria commerciale Umberto I di Via Toledo, infatti, è un set nel set del film stesso, poiché proprio sotto le sue volte della finzione cinematografica vanno in scena le riprese di un film di Antonio Capuano, regista napoletano che negli anni Novanta è stato davvero una figura di riferimento per Sorrentino stesso.</br>📍 <a href="https://it.wikipedia.org/wiki/Galleria_Umberto_I" target="_blank">Maggiori info</a>',
+            description: 'Il primo vero incontro tra il giovane protagonista Fabio (alter ego di Sorrentino) e la settima arte ha luogo in uno dei luoghi più iconici del capoluogo campano. La maestosa galleria commerciale Umberto I di Via Toledo, infatti, è un set nel set del film stesso, poiché proprio sotto le sue volte della finzione cinematografica vanno in scena le riprese di un film di Antonio Capuano, regista napoletano che negli anni Novanta è stato davvero una figura di riferimento per Sorrentino stesso.</br>📍 <a href="https://it.wikipedia.org/wiki/Galleria_Umberto_I" target="_blank">Maggiori info</a>',
             location: {
                 center: [ 14.2495153379846, 40.83851675969711],
                 zoom: 15.34,
@@ -126,7 +126,7 @@ var config = {
             hidden: false,
             title: 'Villa Giusso Astapiana',
             image: 'https://www.napolike.it/wp-content/uploads/2021/12/e-stata-la-mano-di-dio-villa-1250x782.jpg',
-            description: "Villa Giusso Astapiana a Vico Equense è la grande villa in cui tutta la famiglia di Fabio e dei suoi genitori trascorre un giorno di spensieratezza tra pranzo e bagni. ",
+            description: "La prima parte del film si avventura con toni divertiti ed emozionati tra i ricordi familiari di Fabietto, ricordi che includono anche l'elegante Villa Giusso Astapiana dove la famiglia del protagonista trascorre l'estate tra grandi tavolate e gite in barca. Questa dimora è un agriturismo che si trova in realtà a pochi chilometri da Sorrento, più a sud di Napoli.</br>📍 <a href='https://www.astapiana.com/it/' target='_blank'>Maggiori informazioni</a> ",
             location: {
                 center: [14.425444624619095, 40.642305798334945],
                 zoom: 16.43,
@@ -145,10 +145,10 @@ var config = {
             hidden: false,
             title: 'Stromboli',
             image: 'https://www.napolike.it/wp-content/uploads/2021/12/e%CC%80-stata-la-mano-di-dio-stromboli.jpg',
-            description: "Anche alcuni luoghi ed il mare di Stromboli, nonché l'omonimo vulcano, appaiono nel film durante una triste vacanza fatta da Fabio ed il fratello dopo la morte dei genitori. In questa location Fabio capisce di essere 'diventato grande' e si separa dal fratello cercando una propria via, ormai solo nel mondo. ",
+            description: "Nel racconto dei ricordi di Sorrentino c'è però spazio anche per uno scorcio di Sicilia. Una delle vacanze del giovane Fabio insieme al fratello dopo il lutto familiare ha infatti Stromboli come destinazione. Nel film si può quindi ammirare il panorama dell'isola, reso memorabile dall'omonimo vulcano e dalle splendide spiagge.</br>📍 <a href='https://it.wikipedia.org/wiki/Isola_di_Stromboli' target='_blank'>Maggiori informazioni</a>",
             location: {
                 center: [15.21409017162607, 38.793780881782084],
-                zoom: 16.43,
+                zoom: 10,
                 pitch: 44.00,
                 bearing: -14.40
             },
