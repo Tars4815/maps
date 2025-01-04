@@ -86,8 +86,31 @@ var json_Places_1 = {
         coordinates: [9.075959293979373, 45.813660186919577],
       },
     },
-    {"type":"Feature","properties":{"title":"Boring city","description":"...but good food and wine!"},"geometry":{"type":"Point","coordinates":[9.69543,45.05279]}},
-    {"type":"Feature","properties":{"title":"The city where Beauty and Food Beats Piacenza and Cremona","description":"Good food and music! It's also our first celebration of the New Year 2025"},"geometry":{"type":"Point","coordinates":[10.3292, 44.7816]}},
-    {"type":"Feature","properties":{"title":"Home of Stradivarius Violins","description":"The hometown of the beautiful Stradivarius violins, even more stunning than Piacenza."},"geometry":{"type":"Point","coordinates":[10.0261, 45.1365]}}]}
+    {
+      type: "Feature",
+      properties: {
+        title: "Boring city",
+        description: "...but good food and wine!",
+      },
+      geometry: { type: "Point", coordinates: [9.69543, 45.05279] },
+    },
+    {
+      type: "Feature",
+      properties: {
+        title: "The city where Beauty and Food Beats Piacenza and Cremona",
+        description:
+          "Good food and music! It's also our first celebration of the New Year 2025",
+      },
+      geometry: { type: "Point", coordinates: [10.3292, 44.7816] },
+    },
+    {
+      type: "Feature",
+      properties: {
+        title: "Home of Stradivarius Violins",
+        description:
+          "The hometown of the beautiful Stradivarius violins, even more stunning than Piacenza.",
+      },
+      geometry: { type: "Point", coordinates: [10.0261, 45.1365] },
+    },
   ],
 };
